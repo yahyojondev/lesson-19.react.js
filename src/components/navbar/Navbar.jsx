@@ -17,10 +17,10 @@ const Navbar = () => {
             <IoSearchSharp />
           </div>
           <div className="links">
-            <Link to={"/"}>Home</Link>
-            <Link to={"/about"}>Register</Link>
-            <Link to={"/contact"}>Contact</Link>
-            <Link to={"/blog"}>Blog</Link>
+            <NavLink to={"/"}>Home</NavLink>
+            <NavLink to={"/about"}>Register</NavLink>
+            <NavLink to={"/contact"}>Contact</NavLink>
+            <NavLink to={"/blog"}>Blog</NavLink>
           </div>
           <div className="wishlist__cart__wrapper">
             <div className="wishlist__wrapper">

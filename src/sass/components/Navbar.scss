@@ -53,6 +53,10 @@ body {
         font-family: Poppins;
         color: #000;
       }
+      a.active {
+        color: aqua;
+        text-decoration: underline red;
+      }
     }
     .wishlist__cart__wrapper {
       display: flex;
