@@ -39,6 +39,7 @@ const About = () => {
             <div className="first__last__name">
               <div className="input__wrapper">
                 <input
+                  required
                   value={FirstName}
                   onChange={(e) => setFirstName(e.target.value)}
                   placeholder=" first name"
@@ -47,6 +48,7 @@ const About = () => {
               </div>
               <div className="input__wrapper">
                 <input
+                  required
                   value={LastName}
                   onChange={(e) => setLastName(e.target.value)}
                   placeholder="last name"
@@ -56,6 +58,7 @@ const About = () => {
             </div>
             <div className="input__wrapper">
               <input
+                required
                 value={phones}
                 onChange={(e) => setPhones(e.target.value)}
                 placeholder="+9989"
@@ -65,6 +68,7 @@ const About = () => {
             </div>
             <div className="input__wrapper">
               <input
+                required
                 value={role}
                 onChange={(e) => setrole(e.target.value)}
                 placeholder="role"
@@ -74,6 +78,7 @@ const About = () => {
             <div className="user__password">
               <div className="input__wrapper">
                 <input
+                  required
                   value={UserName}
                   onChange={(e) => setUserName(e.target.value)}
                   placeholder="username"
@@ -82,6 +87,7 @@ const About = () => {
               </div>
               <div className="input__wrapper">
                 <input
+                  required
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="password"
